@@ -9,11 +9,7 @@ This project focuses on analyzing and forecasting Netflix subscription trends us
 3. [Key Features](#key-features)
 4. [Technologies Used](#technologies-used)
 5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Results](#results)
-8. [Future Improvements](#future-improvements)
-9. [Contributing](#contributing)
-10. [License](#license)
+6. [Future Improvements](#future-improvements)
 
 ## Project Description
 Netflix has consistently seen growth in its subscriptions. This project aims to:
@@ -64,51 +60,11 @@ The dataset was cleaned and processed to handle missing values, outliers, and in
    pip install -r requirements.txt
    ```
 
-## Usage
-
-1. Prepare the dataset and place it in the `data` folder.
-2. Run the analysis script:
-   ```bash
-   python analysis.py
-   ```
-3. Visualizations and model predictions will be saved in the `output` folder.
-
-## Results
-- **Model Performance**:
-  - Mean Squared Error (MSE): _Insert Value_
-  - R² Score: _Insert Value_
-- **Insights**:
-  - Average quarterly growth: _Insert Value_
-  - Predicted subscribers for the next quarter: _Insert Value_
-
-### Sample Visualization
-![Sample Visualization](output/sample_visualization.png)
 
 ## Future Improvements
 - Use more complex machine learning models for better forecasting accuracy.
 - Incorporate external factors (e.g., market trends, competition) into the model.
 - Develop a dashboard for real-time forecasting and visualization.
 
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Create a pull request.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to reach out if you have any questions or feedback! 🚀
+## Conclusion
+The Netflix Subscription Forecasting project was a comprehensive analysis aimed at understanding and predicting Netflix's subscription trends. By leveraging historical data and applying machine learning techniques, specifically Linear Regression, we were able to achieve meaningful insights into subscription growth and future trends.
